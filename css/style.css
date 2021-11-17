@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+
+.background {
+    padding: 100%;
+}
+
+
+
+.modelos{
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(9, 9, 58);
+}
