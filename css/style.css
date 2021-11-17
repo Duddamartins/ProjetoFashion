@@ -1,24 +1,127 @@
-
-
-
-
-
-
-
-
-
-.background {
-    padding: 100%;
+body {
+    font-family: sans-serif;
+    margin: 0;
+    text-align: center;
 }
 
-
-
-.modelos{
+.topo {
+    background-color: rgb(10, 27, 37)  ;
     display: flex;
     flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    justify-content: space-between;
+}
+
+.img-topo {
+    width: 100%;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 20px;
+    font-style: unset;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: small;
+    color:rgb(33, 62, 80);
+    font-weight: bold; 
+    text-align: left;
+}
+
+.img img {
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 10px;
+    margin: 0 0 0 190px;
+}
+
+.modelos {
+    display: flex;
+    flex: row;
+}
+
+.modelo {
+    flex: 3;
+}
+
+.estilo {
+    color: rgba(58, 58, 58, 0.925);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.estilo-2 {
+    color:rgba(129, 129, 129, 0.877);
+}
+
+a {
+    text-decoration: none;
+    color:rgb(33, 62, 80)
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 900;
+    color: rgba(21, 21, 21, 0.952);
+    letter-spacing: 3px;
+    margin-top: 80px;
+}
+
+.texto-1 {
+    color:rgba(70, 69, 69, 0.808);
+    margin: 3% 12% 10% 12%;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.titulo2 {
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 10% 5% 9% 15%;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.texto-fundo {
+    text-align: left;
+    margin: -5% 50% 9% 15%;
+    line-height: 25px;
+    color: white;
+}
+
+.fundo {
+    background-image: url("../imagens/bg_detalhe.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 700px;
+    background-color: rgb(0,61,82);
+    box-sizing: border-box;
+}
+
+#contato {
+    text-transform: uppercase;
+    color:rgb(0,61,82);
+    font-size: 30px;
+    font-weight: 900;
+    margin: 30px 
 }
 
 footer {
-    text-align: center;
-    background-color: rgb(9, 9, 58);
+    background: rgb(10,27,37);
+    color: rgba(255, 255, 255, 0.719);
+    letter-spacing: 3px;
+    padding: 35px;
 }
