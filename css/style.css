@@ -43,10 +43,9 @@ nav ul li {
 .modelos {
     display: flex;
     flex: row;
-}
-
-.modelo {
-    flex: 3;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .estilo {
@@ -54,7 +53,7 @@ nav ul li {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 700;
-    font-size: 19px;
+    font-size: 15px;
 }
 
 .estilo-2 {
